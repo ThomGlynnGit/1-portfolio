@@ -9,8 +9,8 @@ p {
     background-color: green;
 }
 
-.nav {
-    display: inline;
+.topNav {
+    display: inline-block;
     margin: 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
