@@ -1,10 +1,16 @@
-/* * {
+ * {
     border: 2px solid red;
-}*/
+}
 
+/*border-box allows for "tight" box sizing*/
 html {
     box-sizing: border-box;
 }
+
+/*All elements inherit border-box sizing*/
+*, *::before, *::after {
+    box-sizing: inherit;
+  }
 
 p {
     font-size: 18px;
